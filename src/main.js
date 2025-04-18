@@ -144,7 +144,8 @@ animate();
 
 // Add animation to the heading
 gsap.from("h1",{
-  duration:2,
+  delay1:1,
+  duration:4,
   y:60,
   opacity:0
 })
