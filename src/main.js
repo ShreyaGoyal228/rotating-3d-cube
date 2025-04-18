@@ -136,9 +136,9 @@ function animate() {
   }
   starGeometry.attributes.position.needsUpdate = true;
   renderer.render(scene, camera);
-  cube.rotation.z += 0.01;
+  cube.rotation.z += 0.02;
   // cube.rotation.y += 0.01;
-  cube.rotation.x += 0.01;
+  cube.rotation.x += 0.02;
 }
 animate();
 
